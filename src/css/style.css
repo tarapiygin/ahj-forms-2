@@ -1,0 +1,102 @@
+.container {
+  margin-top: 100px;
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.product-table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.product-table th {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+}
+.product-table td{
+  padding: 3px;
+}
+.product-table td:nth-child(n+2){
+  margin-top: 5px;
+}
+.btn {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1.25rem;
+  color: #242424;
+  background-color: #ffffff;
+  border: #ffffff solid 1px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.pop-up {
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 999;
+  display: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 3em;
+}
+
+.product-form {
+  max-width: 400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-form input {
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.product-form label {
+  width: 100%;
+}
+
+.save-button, .reset-button {
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 7px 14px;
+}
+
+.error {
+  background-color: rgba(255, 0, 0, 0.26);
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.pop-up_visible {
+  display: block;
+}
