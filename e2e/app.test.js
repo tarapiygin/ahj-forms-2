@@ -4,7 +4,7 @@ const childProcess = require('child_process');
 
 let server = null;
 
-jest.setTimeout(30000); // default puppeteer timeout
+jest.setTimeout(55000); // default puppeteer timeout
 describe('test', () => {
   let browser = null;
   let page = null;
