@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico"><link href="main.css" rel="stylesheet"></head>
+
+<body>
+  <div class="container">
+  <div class="title-container">
+    <h1 class="title">Товары</h1>
+    <button type="button" class="btn create-button">+</button>
+  </div>
+
+    <table class="product-table" id='product-table'></table>
+  </div>
+  <div class="pop-up">
+    <form novalidate class="product-form" id='product-form' name="product">
+      <label for="product-form_name">Название</label>
+      <input id="product-form_name" type="text" name="name">
+      <label for="product-form_price">Стоимость</label>
+      <input id="product-form_price" type="text" name="price">
+      <button type="submit" class="btn save-button">Сохранить</button>
+      <button type="reset" class="btn reset-button">Отмена</button>
+    </form>
+  </div>
+<script type="text/javascript" src="main.js"></script></body>
+
+</html>
